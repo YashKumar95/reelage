@@ -818,7 +818,8 @@ img.fbicn {
   right: 0px;
   bottom: 0px;
   content: " ";
-  background-image: url(http://localhost:3000/static/media/Fashion_Stroke.ae1312a1579a5faa0c64.png);
+ /*  background-image: url(http://localhost:3000/static/media/Fashion_Stroke.ae1312a1579a5faa0c64.png); */
+  background-image: url('./components/images/Fashion_Stroke.png');
   background-size: contain;
   position: absolute;
   left: 40px;
@@ -839,7 +840,8 @@ img.fbicn {
   bottom: 0;
   content: " ";
   /* background-image: url(http://localhost:3000/static/media/DANCE.ceae4fd9db1eb24d790e.png); */
-  background-image: url(http://localhost:3000/static/media/SInging_Stroke.909725881b903ce997db.png);
+  /* background-image: url(http://localhost:3000/static/media/SInging_Stroke.909725881b903ce997db.png); */
+  background-image: url('./components/images/SInging_Stroke.png');  
   background-size: contain;
   position: absolute;
   left: revert;
@@ -858,10 +860,11 @@ img.fbicn {
   bottom: 0;
   content: " ";
   /* background-image: url(http://localhost:3000/static/media/DANCE.ceae4fd9db1eb24d790e.png); */
-  background-image: url(http://localhost:3000/static/media/DANCE.ceae4fd9db1eb24d790e.png);
+  /* background-image: url(http://localhost:3000/static/media/DANCE.ceae4fd9db1eb24d790e.png); */
+  background-image: url('./components/images/DANCE.png');
   background-size: contain;
   position: absolute;
-  left: -118px;
+  left: 50%;
   background-repeat-x: no-repeat;
   width: 320px;
   height: 84%;
@@ -1028,7 +1031,7 @@ img.fbicn {
   border: 5px solid #fff;
   display: flex;
   margin-top: -150px;
-  margin-bottom: -70px;
+  margin-bottom: -85px;
 }
 
 .ImgW20 img{
@@ -1059,7 +1062,7 @@ img.fbicn {
 }
 
 .VdoCat_heroText {
-  margin-top: 60px;
+  margin-top: 30px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -1068,7 +1071,7 @@ img.fbicn {
 }
 
 .VdoCat_heroTxtBx {
-  margin-top: 70px;
+  margin-top: 40px;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -1080,7 +1083,7 @@ img.fbicn {
 .CatVideo_HeroSectionBody {
   font-family: 'Inter';
   font-style: normal;
-  background: #000;
+  background: #101019;
   color: #fff;
   position: relative;
   padding-bottom: 0px;
@@ -1089,13 +1092,14 @@ img.fbicn {
 .CatVideo_HeroSection {
   font-family: 'Inter';
   font-style: normal;
-  background: #000;
+  background: transparent;
   color: #fff;
   padding-bottom: 0px;
 }
 
 .CatVideo_HeroSection::after {
-  background-image: url(http://localhost:3000/static/media/wallpapersden2.db3f85c32c0e7022ab42.png);
+  /* background-image: url(http://localhost:3000/static/media/wallpapersden2.db3f85c32c0e7022ab42.png); */
+  background-image: url('./components/images/wallpapersden2.png');
   content: " ";
   position: absolute;
   background-size: contain;

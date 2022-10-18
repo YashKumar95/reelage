@@ -8,7 +8,7 @@ import './logSignStyle.css';
 import './style.css';
 
 
-import App from './/components/CatVideo';
+import App from './/components/Home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
